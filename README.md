@@ -16,6 +16,7 @@ And, this method is only applicable for equally spaced intervals, **h**.
 
 *Formula for backward interpolation :* <br>
 **P(x) = f<sub>n</sub> + u∇f<sub>n</sub> + u(u+1)∇<sup>2</sup>f<sub>n</sub>/2! +.......+ u(u+1)...(u+n-1)∇<sup>n</sup>f<sub>n</sub>/n!** <br>
+u = (x-x<sub>n</sub>)/h
 
 This repository aims to genereate the backward & forward differences 
 of the function in the form of difference table in **MATLAB**.
